@@ -1,0 +1,20 @@
+{
+  "name": "Hoard",
+  "description": "Browser treasury",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+      "default_title": "Hoardeeee!",
+      "default_icon": {
+          "16": "images/path4457.png"
+      }
+  },
+  "icons": {
+      "48": "images/path4457-48.png",
+      "128": "images/path4457-128.png"
+  }
+}

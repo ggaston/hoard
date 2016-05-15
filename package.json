@@ -1,0 +1,15 @@
+{
+  "name": "hoard",
+  "version": "1.0.0",
+  "description": "Browser treasury",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "gaston",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "rollup": "^0.26.3"
+  }
+}
