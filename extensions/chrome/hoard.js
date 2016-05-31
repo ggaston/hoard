@@ -31,8 +31,14 @@ var hoard = (function () {
 			var details = {
 				path: "images/path4457" + state + ".png"
 			};
-			//chrome.browserAction.setIcon(details);
+			chrome.browserAction.setIcon(details);
 			isActive = !isActive;
+			// window.console.log('log: %o', window.document.querySelector('h1').textContent)
+			// Not working on background
+
+			chrome.tabs.executeScript(null, {
+				file: 'content-scanner.js'
+			});
 		});
 	}
 

@@ -32,6 +32,12 @@ function hoard(){
 	    };
 	    chrome.browserAction.setIcon(details);
 	    isActive = !isActive;
+			// window.console.log('log: %o', window.document.querySelector('h1').textContent)
+			// Not working on background
+
+			chrome.tabs.executeScript(null, {
+		    	file: 'content-scanner.js'
+		  });
 	});
 }
 
